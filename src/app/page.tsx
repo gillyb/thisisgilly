@@ -1,44 +1,10 @@
 import Image from "next/image";
 import ExperienceBlock from "./componenets/experience-block";
 import SectionHeader from "./componenets/section-header";
+import SideProject from "./componenets/side-project";
 
-const experience = [{
-  name: 'Palo Alto Networks',
-  title: 'Principal Engineer',
-  dates: 'August 2021 - Current',
-  imageUrl: '/images/paloalto_logo.jpeg',
-  description: 'Owner of the XQL editor, mentoring, lecturing and much much more. I did a lot of cool stuff there. It was awesome'
-}, {
-  name: 'Google',
-  title: 'Senior Software Engineer (Level 4)',
-  dates: 'February 2018 - July 2021',
-  imageUrl: '/images/google_logo.jpeg',
-  description: 'Owner of the XQL editor, mentoring, lecturing and much much more. I did a lot of cool stuff there. It was awesome'
-}, {
-  name: 'Logz.io',
-  title: 'Full Stack Team Leader',
-  dates: 'December 2014 - December 2017',
-  imageUrl: '/images/logzio_logo.jpeg',
-  description: ''
-}, {
-  name: 'Sears Israel',
-  title: 'Full Stack Developer',
-  dates: 'October 2011 - May 2014',
-  imageUrl: '/images/sears_logo.jpeg',
-  description: ''
-}, {
-  name: 'Visa CAL (ICC)',
-  title: '.NET Developer',
-  dates: 'August 2009 - November 2011',
-  imageUrl: '/images/cal_logo.jpeg',
-  description: ''
-}, {
-  name: 'Israel Defense Force (IDF)',
-  title: 'Software Engineer',
-  dates: 'February 2006 - August 2009',
-  imageUrl: '/images/idf_logo.jpeg',
-  description: ''
-}];
+import { experience } from "./data/experience";
+import { sideProjects } from "./data/side-projects";
 
 export default function Home() {
   return (
@@ -47,10 +13,17 @@ export default function Home() {
         <h1>🚀 Gilly Barr</h1>
       </div>
       <p className="max-w-2xl text-left w-full">
-        👋🏻 Hi! My name is Gilly. I've been programming since the age 13, working
-        with various languages and technologies, mostly web-related. I love
-        making stuff, have a lot of hobbies. I'm also a husband and father of
-        two. Currently living in Israel.
+        I'm Gilly. I've been programming since I was 11 years old, back before 
+        anyone knew it would be cool one day. I taught myself to build desktop apps with
+        Visual Basic, discovered the web with php and worked throughout high-school building
+        many eCommerce sites.<br/>
+        Since then, I've worked at quite a few companies and used many different technologies.<br/>
+        I love moving fast <span className="italic text-gray-600">(while trying not to break stuff)</span>, mentoring junior developers,
+        and experimenting with new technologies.
+      </p>
+      <p className="max-w-2xl text-left w-full mt-2">
+        I'm also a husband and dad to two amazing kids.<br/>
+        A true maker at heart.
       </p>
 
       <div className="mt-4 max-w-2xl text-left w-full flex gap-10">
@@ -87,9 +60,9 @@ export default function Home() {
         <div className="flex">
           <Image src="/images/openu_logo.png" width="48" height="48" alt="The Open University" />
           <div className="ml-4">
-            <span className="text-lg font-bold leading-snug">The Open University</span>
+            <span className="text-lg font-semibold leading-snug">The Open University</span>
             <div className="text-sm leading-snug">
-              Bachelors Degree - Computer Science
+              Bachelors Degree - Computer Science & Psychology
             </div>
           </div>
         </div>
@@ -98,7 +71,8 @@ export default function Home() {
       {/* Side projects */}
       <div className="max-w-2xl w-full text-left">
         <SectionHeader name="Side Projects" />
-        <div className="">
+        <div className="grid grid-cols-1">
+          {sideProjects.map(s => <SideProject {...s} />)}
         </div>
       </div>
 
