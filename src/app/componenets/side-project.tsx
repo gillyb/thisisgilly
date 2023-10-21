@@ -5,7 +5,7 @@ interface SideProjectInfo {
   name: string;
   website: string;
   imageUrl: string;
-  description: string;
+  description?: string[];
 }
 
 export default function SideProject(props: SideProjectInfo) {
@@ -24,9 +24,7 @@ export default function SideProject(props: SideProjectInfo) {
             </svg>
           </Link>
         </div>
-        <p className="text-sm">
-          {props.description}
-        </p>
+        <p className="text-sm mt-2" dangerouslySetInnerHTML={{__html: props.description?.join('<br/>') || ''}}></p>
       </div>
     </div>
   );

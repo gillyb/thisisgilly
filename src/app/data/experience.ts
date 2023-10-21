@@ -3,7 +3,7 @@ export const experience = [{
   title: 'Principal Engineer',
   dates: 'August 2021 - Current',
   imageUrl: '/images/paloalto_logo.jpeg',
-  description: ['']
+  description: ['Working on core features of Cortex XDR, one of Palo Alto\'s fastest growing products. Owner of the XQL editor tool inside the app - XQL is a proprietary language for querying user data. I worked on adding many new features to the language, defining the grammar and implementing live error checking and coding suggestions while typing.', 'Worked with Angular & React. Used the ANTLR library for defining the XQL grammar and creating listeners for error checking and suggestions.']
 }, {
   name: 'Google',
   title: 'Senior Software Engineer (Level 4)',
