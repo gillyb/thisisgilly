@@ -3,7 +3,7 @@ export const experience = [{
   title: 'Principal Engineer',
   dates: 'August 2021 - Current',
   imageUrl: '/images/paloalto_logo.jpeg',
-  description: ['Owner of the XQL editor, mentoring, lecturing and much much more. I did a lot of cool stuff there. It was awesome']
+  description: ['']
 }, {
   name: 'Google',
   title: 'Senior Software Engineer (Level 4)',
