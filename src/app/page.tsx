@@ -48,6 +48,17 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Navigation */}
+      <div className="">
+        <ul className="flex flex-wrap items-center justify-center mt-8">
+          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Experience</a></li>
+          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Education</a></li>
+          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Side Projects</a></li>
+          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Hobbies</a></li>
+          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Online Presence</a></li>
+        </ul>
+      </div>
+
       {/* Experience */}
       <div className="max-w-2xl w-full text-left mt-8">
         <SectionHeader name="Experience" />
