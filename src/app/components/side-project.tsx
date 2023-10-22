@@ -12,10 +12,10 @@ export default function SideProject(props: SideProjectInfo) {
 
   return (
     <div className="flex mb-4">
-      <div className="relative content-start w-16 flex-shrink-0">
+      <div className="relative content-start w-8 md:w-16 flex-shrink-0">
         <Image className="rounded-lg" src={props.imageUrl} style={{objectFit: 'contain'}} width="120" height="120" alt={props.name} />
       </div>
-      <div className="ml-4">
+      <div className="ml-2 md:ml-4">
         <div className="text-lg font-semibold leading-snug">
           <Link href={props.website} target="_blank" className="flex items-center text-gray-500 hover:text-gray-900">
             <span className="text-gray-900">{props.name}</span>
@@ -24,7 +24,7 @@ export default function SideProject(props: SideProjectInfo) {
             </svg>
           </Link>
         </div>
-        <p className="text-sm mt-2" dangerouslySetInnerHTML={{__html: props.description?.join('<br/>') || ''}}></p>
+        <p className="text-sm text-gray-600 mt-2" dangerouslySetInnerHTML={{__html: props.description?.join('<br/>') || ''}}></p>
       </div>
     </div>
   );

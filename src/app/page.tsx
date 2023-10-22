@@ -1,14 +1,16 @@
 import Image from "next/image";
-import ExperienceBlock from "./componenets/experience-block";
-import SectionHeader from "./componenets/section-header";
-import SideProject from "./componenets/side-project";
+import Link from "next/link";
+import ExperienceBlock from "./components/experience-block";
+import SectionHeader from "./components/section-header";
+import SideProject from "./components/side-project";
 
 import { experience } from "./data/experience";
 import { sideProjects } from "./data/side-projects";
+import OnlinePresence from "./components/online-presence";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex min-h-screen flex-col items-center p-8 md:p-24">
       <div className="z-10 max-w-2xl w-full justify-between text-5xl font-semibold tracking-tighter lg:flex mb-8">
         <h1>🚀 Gilly Barr</h1>
       </div>
@@ -26,7 +28,7 @@ export default function Home() {
         A true maker at heart.
       </p>
 
-      <div className="mt-4 max-w-2xl text-left w-full flex gap-10">
+      <div className="mt-4 max-w-2xl text-left w-full flex flex-wrap gap-x-10 gap-y-2">
         <div className="flex text-md text-gray-400">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -48,17 +50,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Navigation */}
-      <div className="">
-        <ul className="flex flex-wrap items-center justify-center mt-8">
-          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Experience</a></li>
-          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Education</a></li>
-          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Side Projects</a></li>
-          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Hobbies</a></li>
-          <li className="mr-4"><a className="text-gray-600 hover:text-gray-800 hover:underline" href="#">Online Presence</a></li>
-        </ul>
-      </div>
-
       {/* Experience */}
       <div className="max-w-2xl w-full text-left mt-8">
         <SectionHeader name="Experience" />
@@ -69,8 +60,10 @@ export default function Home() {
       <div className="max-w-2xl w-full text-left">
         <SectionHeader name="Education" />
         <div className="flex">
-          <Image src="/images/openu_logo.png" width="48" height="48" alt="The Open University" />
-          <div className="ml-4">
+          <div className="relative w-6 md:w-12 flex-shrink-0 text-left content-start">
+            <Image src="/images/openu_logo.png" width="48" height="48" style={{objectFit: 'contain'}} alt="The Open University" />
+          </div>
+          <div className="ml-2 md:ml-4">
             <span className="text-lg font-semibold leading-snug">The Open University</span>
             <div className="text-sm leading-snug">
               Bachelors Degree - Computer Science & Psychology
@@ -90,12 +83,18 @@ export default function Home() {
       {/* Hobbies */}
       <div className="max-w-2xl w-full text-left">
         <SectionHeader name="Hobbies" />
-        <p className="text-sm text-gray-600 mb-4">Click on one of them, I DARE you!</p>
+        <p className="text-sm text-gray-600 mb-4 -mt-4">Click on one of them, I DARE you!</p>
         <div className="flex gap-4">
           <span className="border rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">3D Printing</span>
           <span className="border rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">Woodworking</span>
-          <span className="border rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">Running</span>
+          <Link href="https://connect.garmin.com/modern/profile/gilly914" className="border rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">Running</Link>
         </div>
+      </div>
+
+      {/* Online Presence */}
+      <div className="max-w-2xl w-full text-left">
+        <SectionHeader name="Online Presence" />
+        <OnlinePresence />
       </div>
 
     </main>
