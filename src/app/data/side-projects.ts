@@ -12,10 +12,10 @@ export const sideProjects = [{
   name: 'Wasted Humanity',
   website: 'https://wastedhumanity.com',
   imageUrl: '/images/wastedhumanity_logo.png',
-  description: ['Just a silly project to show you how much time humanity wasted on YouTube videos and what productive stuff we couldve done instead.', 'A collaboration with <a class="hover:underline text-gray-600 hover:text-gray-900" target="_blank" href="https://www.instagram.com/flying_eggplant/">@flying_eggplant</a>']
+  description: ['Just a silly project to show you how much time humanity wasted on YouTube videos and what productive stuff we couldve done instead.', 'A collaboration with <a class="hover:underline text-gray-600 dark:text-gray-300 hover:text-gray-900" target="_blank" href="https://www.instagram.com/flying_eggplant/">@flying_eggplant</a>']
 }, {
   name: 'Treender',
   website: 'https://treenderapp.com',
   imageUrl: '/images/treender_logo.svg',
-  description: ['A dating app for trees. Who doesnt need this, right?', 'A joke we created for "Tu B\'Shevat" - a jewish holiday to celebrate the new year of the trees.', 'A collaboration with <a class="hover:underline text-gray-600 hover:text-gray-900" href="https://www.instagram.com/flying_eggplant/" target="_blank">@flying_eggplant</a>']
+  description: ['A dating app for trees. Who doesnt need this, right?', 'A joke we created for "Tu B\'Shevat" - a jewish holiday to celebrate the new year of the trees.', 'A collaboration with <a class="hover:underline text-gray-600 dark:text-gray-300 hover:text-gray-900" href="https://www.instagram.com/flying_eggplant/" target="_blank">@flying_eggplant</a>']
 }];

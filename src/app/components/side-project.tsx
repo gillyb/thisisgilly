@@ -24,7 +24,7 @@ export default function SideProject(props: SideProjectInfo) {
             </svg>
           </Link>
         </div>
-        <p className="text-sm text-gray-600 mt-2" dangerouslySetInnerHTML={{__html: props.description?.join('<br/>') || ''}}></p>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2" dangerouslySetInnerHTML={{__html: props.description?.join('<br/>') || ''}}></p>
       </div>
     </div>
   );
