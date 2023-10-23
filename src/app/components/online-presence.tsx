@@ -24,12 +24,18 @@ const onlineProfiles = [{
 
 export default function OnlinePresence() {
   return (
-    <div className="flex flex-wrap">
-      {onlineProfiles.map(p => (
-        <div className="w-8 h-8 mr-4 text-gray-400 hover:text-gray-700">
-          <Link target="_blank" href={p.url}>{p.icon}</Link>
-        </div>
-      ))}
-    </div>
+    <>
+      <div className="flex flex-wrap">
+        {onlineProfiles.map(p => (
+          <div className="w-8 h-8 mr-4 text-gray-400 hover:text-gray-700">
+            <Link target="_blank" href={p.url}>{p.icon}</Link>
+          </div>
+        ))}
+      </div>
+      <div className="mt-2 text-gray-700 text-sm">
+        I also used to (a long time ago) maintain a technical blog called 
+        <Link href="http://www.debuggerstepthrough.com/" className="inline-block ml-1 text-gray-500 underline hover:text-gray-800 hover:no-underline">[DebuggerStepThrough]</Link>
+      </div>
+    </>
   );
 }

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import ExperienceBlock from "./components/experience-block";
 import SectionHeader from "./components/section-header";
 import SideProject from "./components/side-project";
