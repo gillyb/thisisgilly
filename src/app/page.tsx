@@ -7,6 +7,7 @@ import SideProject from "./components/side-project";
 import { experience } from "./data/experience";
 import { sideProjects } from "./data/side-projects";
 import OnlinePresence from "./components/online-presence";
+import Hobbies from "./components/hobbies";
 
 export default function Home() {
   return (
@@ -83,12 +84,7 @@ export default function Home() {
       {/* Hobbies */}
       <div className="max-w-2xl w-full text-left">
         <SectionHeader name="Hobbies" />
-        <p className="text-sm text-gray-600 mb-4 -mt-4">Click on one of them, I DARE you!</p>
-        <div className="flex flex-wrap gap-4">
-          <span className="border dark:bg-orange-200 dark:text-gray-900 rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">3D Printing</span>
-          <span className="border dark:bg-orange-200 dark:text-gray-900 rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">Woodworking</span>
-          <Link href="https://connect.garmin.com/modern/profile/gilly914" className="border dark:bg-orange-200 dark:text-gray-900 rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">Running</Link>
-        </div>
+        <Hobbies />
       </div>
 
       {/* Online Presence */}
