@@ -31,20 +31,20 @@ export default function Hobbies() {
           <div className={"woodworking" + (showWoodworking ? '' : ' hidden')}>
             <div className="mb-4 text-gray-600">A few things I built. Check out my instagram for more.</div>
             <div className="flex flex-wrap gap-10">
-              <Image src="/images/woodworking1.jpg" className="w-48 md:w-64" width={220} height={220} objectFit="contain" alt="woodworking project 1" />
-              <Image src="/images/woodworking2.jpg" className="w-48 md:w-64" width={220} height={220} objectFit="contain" alt="woodworking project 2" />
-              <Image src="/images/woodworking3.jpg" className="w-48 md:w-64" width={220} height={220} objectFit="contain" alt="woodworking project 3" />
-              <Image src="/images/woodworking4.jpeg" className="w-48 md:w-64" width={220} height={220} objectFit="contain" alt="woodworking project 4" />
+              <Image src="/images/woodworking1.jpg" className="rounded-lg w-48 md:w-64" width={220} height={220} objectFit="contain" alt="woodworking project 1" />
+              <Image src="/images/woodworking2.jpg" className="rounded-lg w-48 md:w-64" width={220} height={220} objectFit="contain" alt="woodworking project 2" />
+              <Image src="/images/woodworking3.jpg" className="rounded-lg w-48 md:w-64" width={220} height={220} objectFit="contain" alt="woodworking project 3" />
+              <Image src="/images/woodworking4.jpeg" className="rounded-lg w-48 md:w-64" width={220} height={220} objectFit="contain" alt="woodworking project 4" />
             </div>
           </div>
 
           <div className={"3dprinting" + (showPrinting ? '' : ' hidden')}>
             <div className="mb-4 text-gray-600">A few things I worked on... Check out my instagram for more.</div>
             <div className="flex flex-wrap gap-10">
-              <Image src="/images/printing1.jpg" className="w-48 md:w-64" width={220} height={220} objectFit="contain" alt="RC car" />
-              <Image src="/images/printing2.jpg" className="w-48 md:w-64" width={220} height={220} objectFit="contain" alt="Curta Calculator model" />
-              <Image src="/images/printing3.jpg" className="w-48 md:w-64" width={220} height={220} objectFit="contain" alt="Light Saber" />
-              <Image src="/images/printing4.jpg" className="w-48 md:w-64" width={220} height={220} objectFit="contain" alt="A reading lamp" />
+              <Image src="/images/printing1.jpg" className="rounded-lg w-48 md:w-64" width={220} height={220} objectFit="contain" alt="RC car" />
+              <Image src="/images/printing2.jpg" className="rounded-lg w-48 md:w-64" width={220} height={220} objectFit="contain" alt="Curta Calculator model" />
+              <Image src="/images/printing3.jpg" className="rounded-lg w-48 md:w-64" width={220} height={220} objectFit="contain" alt="Light Saber" />
+              <Image src="/images/printing4.jpg" className="rounded-lg w-48 md:w-64" width={220} height={220} objectFit="contain" alt="A reading lamp" />
             </div>
           </div>
         </div>
