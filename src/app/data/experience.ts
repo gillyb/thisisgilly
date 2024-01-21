@@ -15,7 +15,7 @@ export const experience = [
     dates: "February 2018 - July 2021",
     imageUrl: "/images/google_logo.jpeg",
     description: [
-      'On the team that maintained the <a href="https://trends.google.com/trends/" target="_blank">Trends</a> tool and also built <a href="https://journaliststudio.google.com/pinpoint/about" target="_blank">Pinpoint</a> - a tool for investigative journalists to work with large amounts of documents.',
+      'On the team that maintained the <a class="underline hover:no-underline" href="https://trends.google.com/trends/" target="_blank">Trends</a> tool and also built <a class="underline hover:no-underline" href="https://journaliststudio.google.com/pinpoint/about" target="_blank">Pinpoint</a> - a tool for investigative journalists to work with large amounts of documents.',
       "Worked mainly with Java and Typescript, along with many internal proprietary frameworks and tools.",
     ],
   },
