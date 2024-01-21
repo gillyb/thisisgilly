@@ -21,7 +21,7 @@ export default function Hobbies() {
 
   return (
     <>
-      <p className="italic text-sm text-gray-600 mb-4 -mt-4">Click on one of them, I DARE you!</p>
+      <p className="italic text-sm text-gray-600 mb-4 -mt-4">These are clickable..</p>
       <div className="flex flex-wrap gap-4">
         <span onClick={() => togglePrinting()} className="border dark:bg-orange-200 dark:text-gray-900 rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">3D Printing</span>
         <span onClick={() => toggleWoodworking()} className="border dark:bg-orange-200 dark:text-gray-900 rounded-md bg-orange-50 border-orange-400 py-1 px-3 font-mono cursor-pointer hover:underline hover:bg-orange-100">Woodworking</span>

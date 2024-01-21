@@ -66,7 +66,7 @@ export default function Home() {
           <div className="ml-2 md:ml-4">
             <span className="text-lg font-semibold leading-snug">The Open University</span>
             <div className="text-sm leading-snug">
-              Bachelors Degree - Computer Science & Psychology
+              Bachelor of Science <span className="italic text-gray-400">(Computer Science & Psychology)</span>
             </div>
           </div>
         </div>
