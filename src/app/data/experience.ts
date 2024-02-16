@@ -5,7 +5,7 @@ export const experience = [
     dates: "August 2021 - Current",
     imageUrl: "/images/paloalto_logo.jpeg",
     description: [
-      "Working on core features of Cortex XDR, one of Palo Alto's fastest growing products. Owner of the XQL editor tool inside the app - XQL is a proprietary language for querying user data. I worked on adding many new features to the language, defining the grammar and implementing live error checking and coding suggestions while typing.",
+      "Working on core features of <a href="https://www.paloaltonetworks.com/cortex/cortex-xdr" class="underline hover:no-underline" target="_blank">Cortex XDR</a>, one of Palo Alto's fastest growing products. Owner of the XQL editor tool inside the app - <a class="underline hover:no-underline" href="https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-XQL-Language-Reference" target="_blank">XQL</a> is a proprietary language for querying user data. I worked on adding many new features to the language, defining the grammar and implementing live error checking and coding suggestions while typing.",
       "Worked with Angular & React. Used the ANTLR library for defining the XQL grammar and creating listeners for error checking and suggestions.",
     ],
   },
