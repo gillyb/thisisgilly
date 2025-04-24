@@ -3,7 +3,7 @@ export const experience = [
     name: "Voiceflow",
     title: "Senior Software Engineer & Squad Leader",
     dates: "May 2024 - Present",
-    imageUrl: "/images/paloalto_logo.jpeg",
+    imageUrl: "/images/voiceflow_icon.png",
     description: [
       'Rewrote the whole UI for the chat widget that is embedded on the website of thousands of customers and used by millions each month.',
       'Added streaming audio capabilities using AudioWorklets and web sockets.',
