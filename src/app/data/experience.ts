@@ -5,7 +5,9 @@ export const experience = [
     dates: "May 2024 - Present",
     imageUrl: "/images/paloalto_logo.jpeg",
     description: [
-      '',''
+      'Rewrote the whole UI for the chat widget that is embedded on the website of thousands of customers and used by millions each month.',
+      'Added streaming audio capabilities using AudioWorklets and web sockets.',
+      'Designed and worked on features, end to end, in the creator tool - using real time communication via websockets so multiple users can edit objects simultaneously.'
     ],
   },
   {
