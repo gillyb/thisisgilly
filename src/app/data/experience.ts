@@ -1,8 +1,17 @@
 export const experience = [
   {
+    name: "Voiceflow",
+    title: "Senior Software Engineer & Squad Leader",
+    dates: "May 2024 - Present",
+    imageUrl: "/images/paloalto_logo.jpeg",
+    description: [
+      '',''
+    ],
+  },
+  {
     name: "Palo Alto Networks",
     title: "Principal Engineer",
-    dates: "August 2021 - Current",
+    dates: "August 2021 - April 2024",
     imageUrl: "/images/paloalto_logo.jpeg",
     description: [
       'Working on core features of <a href="https://www.paloaltonetworks.com/cortex/cortex-xdr" class="underline hover:no-underline" target="_blank">Cortex XDR</a>, one of Palo Alto\'s fastest growing products. Owner of the XQL editor tool inside the app - <a class="underline hover:no-underline" href="https://docs-cortex.paloaltonetworks.com/r/Cortex-XDR/Cortex-XDR-XQL-Language-Reference" target="_blank">XQL</a> is a proprietary language for querying user data. I worked on adding many new features to the language, defining the grammar and implementing live error checking and coding suggestions while typing.',
