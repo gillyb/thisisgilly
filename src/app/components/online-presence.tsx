@@ -14,7 +14,7 @@ const onlineProfiles = [{
   icon: <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="100%" height="100%"><path d="M 19.03125 1.96875 L 17.09375 2.5 L 18.90625 9.25 L 20.84375 8.75 Z M 14.09375 4.0625 L 12.5625 5.34375 L 17.0625 10.71875 L 18.59375 9.4375 Z M 10.71875 7.53125 L 9.71875 9.25 L 15.78125 12.75 L 16.78125 11.03125 Z M 8.96875 11.125 L 8.4375 13.03125 L 15.21875 14.84375 L 15.71875 12.9375 Z M 8.1875 14.28125 L 8.03125 16.28125 L 15 16.875 L 15.1875 14.875 Z M 5 15 L 5 22 L 18 22 L 18 15 L 16 15 L 16 20 L 7 20 L 7 15 Z M 8 17 L 8 19 L 15 19 L 15 17 Z"/></svg>
 }, {
   name: 'instagram',
-  url: 'https://instagram.com/maker_waker',
+  url: 'https://www.instagram.com/gillygillybobilly',
   icon: <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="100%" height="100%">    <path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"/></svg>
 }, {
   name: 'twitter',
