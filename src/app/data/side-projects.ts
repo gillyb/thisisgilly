@@ -2,7 +2,7 @@ export const sideProjects = [
   {
     name: "AudioPea (In Progress)",
     website: "https://audiopea.com",
-    imageUrl: "/images/audiopea_logo.png",
+    imageUrl: "",
     description: [
       "A fun learning adventure/experiment I took on - to build an online functioning audio editor from scratch, without using any frameworks or libraries at all!",
       "No ChatGPT, Claude code or the likes too. Just looking at documentation and writing code by hand like a caveman.",
@@ -13,7 +13,7 @@ export const sideProjects = [
   {
     name: "EntryLevel.Careers (In Progress)",
     website: "https://entrylevel.careers",
-    imageUrl: "/images/entrylevel_logo.png",
+    imageUrl: "",
     description: [
       "A job board for entry level positions in tech.",
       "I'm far from a novice in this industry, but from friends and family I realized that it's very hard to find a job without any experience in tech.",
