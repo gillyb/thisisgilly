@@ -13,7 +13,9 @@ export default function SideProject(props: SideProjectInfo) {
   return (
     <div className="flex mb-4">
       <div className="relative content-start w-8 md:w-16 flex-shrink-0">
-        <Image className="rounded-lg" src={props.imageUrl} style={{objectFit: 'contain'}} width="120" height="120" alt={props.name} />
+        {props.imageUrl.trim().length === 0 ? 
+          <div className="w-100 border-r-md bg-grey"></div> :
+          <Image className="rounded-lg" src={props.imageUrl} style={{objectFit: 'contain'}} width="120" height="120" alt={props.name} />}
       </div>
       <div className="ml-2 md:ml-4">
         <div className="text-lg font-semibold leading-snug">
