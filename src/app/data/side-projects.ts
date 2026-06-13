@@ -1,6 +1,27 @@
 export const sideProjects = [
   {
-    name: "TubeMail",
+    name: "AudioPea (In Progress)",
+    website: "https://audiopea.com",
+    imageUrl: "/images/audiopea_logo.png",
+    description: [
+      "A fun learning adventure/experiment I took on - to build an online functioning audio editor from scratch, without using any frameworks or libraries at all!",
+      "No ChatGPT, Claude code or the likes too. Just looking at documentation and writing code by hand like a caveman.",
+      "It's far from done at the moment. Every once in a while I decide to dedicate some time to it. I'm mainly enjoying the process, but I hope someday this will be fully functional.",
+      "Took a lot of inspiration from photopea.com and hoping that one day this will be useful as well."
+    ]
+  },
+  {
+    name: "EntryLevel.Careers (In Progress)",
+    website: "https://entrylevel.careers",
+    imageUrl: "/images/entrylevel_logo.png",
+    description: [
+      "A job board for entry level positions in tech.",
+      "I'm far from a novice in this industry, but from friends and family I realized that it's very hard to find a job without any experience in tech.",
+      "Using a lot of LLM's and Claude Code's help to create scrapers and build the UI for this, but with the best intentions and hope that it will be useful for beginners finding their way in the tech industry."
+    ]
+  },
+  {
+    name: "TubeMail [DEFUNCT]",
     website: "https://tubemail.io",
     imageUrl: "/images/tubemail_logo.png",
     description: [
@@ -9,7 +30,7 @@ export const sideProjects = [
     ],
   },
   {
-    name: "StockSwings",
+    name: "StockSwings [DEFUNCT]",
     website: "https://stockswings.io",
     imageUrl: "/images/stockswings_logo.png",
     description: [
